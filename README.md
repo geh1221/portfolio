@@ -15,7 +15,7 @@ Georgetown University, May 2024
 #### Travel Advice From Reddit Text Data
 - [Project Website](https://gu-dsan6000.github.io/fall-2024-project-team-13/)
 #### Flight Delays and Early Departures
-- [Final Report](https://github.com/geh1221/flight_data_project/blob/main/Flight%20Data%20Report.pdf)   
+- [Final Report](https://github.com/geh1221/flight_data_project/blob/main/Flight%20Data%20Report.pdf)
 #### NHL Power Play Analysis
 - [Project Website](https://geh.georgetown.domains/portfolio/project-website/_site/)
 #### Airline Passenger Satisfaction
