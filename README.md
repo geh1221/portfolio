@@ -10,7 +10,12 @@ Biology of Global Health, BS
 
 Georgetown University, May 2024
 
-### Projects                            
+### Projects
+
+- [Travel Advice From Reddit Text Data](https://github.com/geh1221/travel_advice)
+- [Flight Delays and Early Departures](https://github.com/geh1221/flight_data_project)
+- [NHL Power Play Analysis](https://github.com/geh1221/nhl_power_plays)
+- [Airline Passenger Satisfaction](https://github.com/geh1221/airline_passenger_satisfaction)
 
 ### Work and Other Experiences
 
