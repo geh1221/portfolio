@@ -12,10 +12,15 @@ Georgetown University, May 2024
 
 ### Projects
 
-- [Travel Advice From Reddit Text Data](https://github.com/geh1221/travel_advice)
-- [Flight Delays and Early Departures](https://github.com/geh1221/flight_data_project)
-- [NHL Power Play Analysis](https://github.com/geh1221/nhl_power_plays)
-- [Airline Passenger Satisfaction](https://github.com/geh1221/airline_passenger_satisfaction)
+#### [Travel Advice From Reddit Text Data](https://github.com/geh1221/travel_advice)
+- fjdksfljskjfkjsalfjksld
+- [Project Website](https://gu-dsan6000.github.io/fall-2024-project-team-13/)
+#### [Flight Delays and Early Departures](https://github.com/geh1221/flight_data_project)
+- [Final Report](https://github.com/geh1221/flight_data_project/blob/main/Flight%20Data%20Report.pdf)   
+#### [NHL Power Play Analysis](https://github.com/geh1221/nhl_power_plays)
+- [Project Website](https://geh.georgetown.domains/portfolio/project-website/_site/)
+#### [Airline Passenger Satisfaction](https://github.com/geh1221/airline_passenger_satisfaction)
+- kjfnjkhds
 
 ### Work and Other Experiences
 
