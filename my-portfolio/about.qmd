@@ -1,0 +1,111 @@
+---
+format: html
+---
+
+```{=html}
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+  <style>
+  /* About Me Section */
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.headshot {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 8px solid #F0EFEB;
+}
+
+.headshot:hover {
+  transform: scale(1.05); /* Enlarges by 5% */
+}
+
+.bio {
+  flex: 1;
+  text-align: left;
+}
+
+/* Education & Skills Section */
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.education, .skills {
+  width: 48%; /* Ensures both sections are evenly spaced */
+}
+
+.skills ul {
+  padding-left: 20px;
+}
+
+@media (max-width: 600px) {
+  .about-container, .info-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .headshot {
+    width: 120px;
+    height: 120px;
+  }
+
+  .education, .skills {
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+
+
+
+
+<div class="about-container">
+  <img src="assets/headshot.jpg" alt="Grace Hyland" class="headshot">
+  <div class="bio">
+    <h2>About Me</h2>
+    <p>Hello! My name is Grace Hyland, and I’m a Master's student in Data Science and Analytics at Georgetown University. I started my graduate studies while earning a Bachelor's in Biology of Global Health, which I completed in May 2024. With a strong foundation in both biological sciences and data-driven problem-solving, I’m passionate about using analytics to uncover insights and answer questions. I’m currently seeking early-career opportunities where I can apply my skills in data analysis and machine learning to address complex challenges. </p>
+    <p>When I’m not diving into data, you’ll likely find me cheering on Georgetown basketball, exploring new restaurants with friends, or out on a run, training for my next race.</p>
+  </div>
+</div>
+
+<div class="info-container">
+  <div class="education" style = "background-color: #F0EFEB;padding: 15px;border-radius: 10px; text-align: left;">
+    <h3 style = "text-align: center;">Coursework</h3>
+    <ul>
+    <li>Big Data and Cloud Computing</li>
+    <li>Database Systems and SQL</li>
+    <li>Advanced Data Visualization</li>
+    <li>Applied Generative AI</li>
+    <li>Storytelling, Data Communication, and Decision Science
+    <li>Biological and Biomedical Data Science</li>
+    <li>Data Science and Analytics</li>
+    </ul>
+  </div>
+  
+  <div class="skills" style = "background-color: #F0EFEB;padding: 15px;border-radius: 10px; text-align: center;">
+    <h3>Skills</h3>
+    <ul>
+      <li>Data cleaning and processing (tidyverse, NumPy, Pandas)</li>
+      <li>SQL and database management</li>
+      <li>Data visualization (ggplot2, matplotlib, seaborn, Plotly, Tableau)</li>
+      <li>Machine Learning in Python (scikit-learn)</li>
+      <li>Cloud computing (AWS, PySpark, SparkNLP)</li>
+    </ul>
+  </div>
+</div>
+
+
+```

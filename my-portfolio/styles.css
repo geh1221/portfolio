@@ -1,0 +1,55 @@
+/* css styles */
+
+body {
+  font-family: Arial, sans-serif;
+}
+.navbar {
+  background-color: #F0EFEB;
+  color: #CB997E;
+  
+
+@media (max-width: 1024px) {
+  div[style*="flex: 1 1 30%"] {
+    flex: 1 1 45%;
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  div[style*="flex: 1 1 30%"] {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+
+.about-container {
+  display: flex;
+  align-items: center; /* Aligns the image and text in the center */
+  gap: 20px; /* Adds spacing between the image and text */
+  max-width: 800px; /* Adjusts width to control layout */
+  margin: auto; /* Centers the section on the page */
+}
+
+.headshot {
+  width: 150px; /* Adjust image size */
+  height: 150px; /* Keep it square */
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image is properly cropped */
+}
+
+.bio {
+  flex: 1; /* Allows the bio section to take up remaining space */
+  text-align: left;
+}
+
+@media (max-width: 600px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .headshot {
+    width: 120px;
+    height: 120px;
+  }
+}

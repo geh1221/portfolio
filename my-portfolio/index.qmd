@@ -1,0 +1,61 @@
+---
+format: html
+---
+
+
+
+
+
+
+```{=html}
+<link rel="stylesheet" href="styles.css">
+<p style="font-size: 24px; margin-top: 10px; margin-bottom: 20px; text-align: center;" > Hello, and welcome to my portfolio! My name is Grace Hyland and I will be graduating with my MS in Data Science and Analytics this May (2025). Please explore my projects below! </p>
+<br>
+<br>
+<div style="display: flex; gap: 15px; flex-wrap: wrap; width: 98%; margin: auto; justify-content: space-between;">
+  <div style="border: 1px solid #ddd; padding: 15px; flex: 1 1 30%; max-width: 30%; border-radius: 10px; text-align: center; background-color: #F0EFEB;">
+    <img src="assets/project1-image.png" alt="Travel Advice" style="width: 100%; height: 150px; object-fit: cover; border-radius: 10px;">
+    <h3 style="font-size: 16px; margin-top: 10px; ">Travel Advice From Reddit</h3>
+    <p style="font-size: 13px;">We used post and comment data from seven travel related subreddits to identify travel trends and consumer preferences. We employed NLP techniques to identify the most popular travel destinations and categorize these destinations based on additional information included in the posts. </p>
+    <p style="font-size: 13px;"> <b>Tools: </b> Amazon SageMaker, PySpark, SpaCy, SparkNLP, RegEx, Pandas, numpy</p>
+    <a href="https://gu-dsan6000.github.io/fall-2024-project-team-13/" style="color: #CB997E;">View Project →</a>
+  </div>
+    <div style="border: 1px solid #ddd; padding: 15px; flex: 1 1 30%; max-width: 30%; border-radius: 10px; text-align: center; background-color: #F0EFEB;">
+    <img src="assets/project4-image.png" alt="Flight Counts and Delays" style="width: 100%; height: 150px; object-fit: cover; border-radius: 10px;">
+    <h3 style="font-size: 16px; margin-top: 10px;">Flight Counts and Delays</h3>
+    <p style="font-size: 13px;">Created a report from the Bureau of Transportation Statistics flight log for February of 2021. The report delivered insights on frequency of and distrubution of flights as well as delays and cancellations. I used SQL to aggregate and summarize the data and visualized these summaries using Tableau.</p>
+    <p style="font-size: 13px;"> <b>Tools: </b> SQL, MySQL Workbench, Tableau </p>
+    <a href="assets/project4.pdf" target="_blank" style="color: #CB997E;">View Project →</a>
+  </div>
+  <div style="border: 1px solid #ddd; padding: 15px; flex: 1 1 30%; max-width: 30%; border-radius: 10px; text-align: center; background-color: #F0EFEB;">
+    <img src="assets/project2-image.png" alt="Power Play Analysis" style="width: 100%; height: 150px; object-fit: cover; border-radius: 10px;">
+    <h3 style="font-size: 16px; margin-top: 10px;">Power Play Analysis</h3>
+    <br>
+    <p style="font-size: 13px;">Explored using NHL player evaluation metrics during power play minutes as predictors for playoff berths. I used several supervised and unsupervised machine learning algorithms to classify teams based on these metrics. </p>
+    <br>
+    <p style="font-size: 13px;"> <b>Tools: </b> Pandas, numpy, scikit-learn</p>
+    <a href="https://geh.georgetown.domains/portfolio/project-website/_site/introduction.html" style="color: #CB997E;">View Project →</a>
+  </div>
+  <div style="border: 1px solid #ddd; padding: 15px; flex: 1 1 30%; max-width: 30%; border-radius: 10px; text-align: center; background-color: #F0EFEB;">
+    <img src="assets/project3-image.png" alt="Passenger Satisfaction" style="width: 100%; height: 150px; object-fit: cover; border-radius: 10px;">
+    <h3 style="font-size: 16px; margin-top: 10px">Passenger Satisfaction</h3>
+    <p style="font-size: 13px;">We sought to identify the most important factors that contribute to whether or not passengers will be satisfied with their flight experience. We used various statistical models to generate predictions for passenger satisfaction. Through determining the most important factors we were able to provide recommendations to airlines for areas to focus on.</p>
+    <p style="font-size: 13px;"> <b>Tools: </b> tidyverse, ggplot2, logistic regression </p>
+    <a href="assets/project3.pdf" target="_blank" style="color: #CB997E;">View Project →</a>
+  </div>
+  <div style="border: 1px solid #ddd; padding: 15px; flex: 1 1 30%; max-width: 30%; border-radius: 10px; text-align: center; background-color: #F0EFEB;">
+    <img src="assets/project6-image.png" alt="syndemics" style="width: 100%; height: 150px; object-fit: cover; border-radius: 10px;">
+    <h3 style="font-size: 16px; margin-top: 10px;">Type II Diabetes Syndemics</h3>
+    <p style="font-size: 13px;">We used NHANES survey data from the CDC to evaluate how demographic, dietary, life style, and laboratory factors affect Type II Diabetes diagnosis. We constructed stratified survival curves for many variables to identify those with significant differences between levels. We then evaluated how these significant variables interact with one another. </p>
+    <p style="font-size: 13px;"> <b>Tools: </b> survival analysis </p>
+    <a href="https://shawnhxu.github.io/DSAN6150_Project_Website/" style="color: #CB997E;">View Project →</a>
+  </div>
+  <div style="border: 1px solid #ddd; padding: 15px; flex: 1 1 30%; max-width: 30%; border-radius: 10px; text-align: center; background-color: #F0EFEB;">
+    <img src="assets/project5-image.png" alt="Travel Advice" style="width: 100%; height: 150px; object-fit: cover; border-radius: 10px;">
+    <h3 style="font-size: 16px; margin-top: 10px;">Public Transportation Network Analysis</h3>
+    <p style="font-size: 13px;">Comparative analysis of the metro systems in Boston and Washington, DC to evauluate resiliency and efficiency of the network. I reconstructed both metro systems as graph objects in Python and calculated basic network metrics, identified the most critical stops, and analyzed passenger density througout the system.</p>
+    <p style="font-size: 13px;"> <b>Tools: </b> NetworkX, geopandas, matplotlib </p>
+    <a href="assets/project6.pdf" target="_blank" style="color: #CB997E;">View Project →</a>
+  </div>
+</div>
+```

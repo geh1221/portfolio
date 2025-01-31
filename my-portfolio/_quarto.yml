@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Grace Hyland's Portfolio"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About Me
+      - href: assets/resume.pdf
+        text: Resume
+
+format:
+  html:
+    allow-html: true
+    theme: cosmo
+    css: styles.css
+
+
+
+
