@@ -21,7 +21,7 @@ format: html
     <a href="https://gu-dsan6000.github.io/fall-2024-project-team-13/" style="color: #CB997E;">View Project →</a>
   </div>
     <div style="border: 1px solid #ddd; padding: 15px; flex: 1 1 30%; max-width: 30%; border-radius: 10px; text-align: center; background-color: #F0EFEB;">
-    <img src="assets/project4-image.png" alt="Flight Counts and Delays" style="width: 100%; height: 150px; object-fit: cover; border-radius: 10px;">
+    <img src="assets/project4-image.jpg" alt="Flight Counts and Delays" style="width: 100%; height: 150px; object-fit: cover; border-radius: 10px;">
     <h3 style="font-size: 16px; margin-top: 10px;">Flight Counts and Delays</h3>
     <p style="font-size: 13px;">Created a report from the Bureau of Transportation Statistics flight log for February of 2021. The report delivered insights on frequency of and distrubution of flights as well as delays and cancellations. I used SQL to aggregate and summarize the data and visualized these summaries using Tableau.</p>
     <p style="font-size: 13px;"> <b>Tools: </b> SQL, MySQL Workbench, Tableau </p>
